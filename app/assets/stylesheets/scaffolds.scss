@@ -71,3 +71,6 @@ div {
     list-style: square;
   }
 }
+
+.display-table{display: table; width: 100%; table-layout: fixed;}
+.display-cell{display: table-cell;}

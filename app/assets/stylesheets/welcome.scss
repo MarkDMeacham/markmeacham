@@ -1,0 +1,11 @@
+// Place all the styles related to the welcomes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body{height: 100%; background-color: #EDEDEB;}
+.under_construction_wrapper{ 
+	width: 100%; height: 100%; text-align: center; 
+	.display-cell{vertical-align: middle;}
+
+	.under_construction{padding: 10px; display: inline-block; background-color: #FFE224; border: 1px solid #222; color: #222;}
+}
