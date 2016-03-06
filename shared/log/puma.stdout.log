@@ -11180,3 +11180,106 @@ Started GET "/assets/glyphicons-halflings-regular.woff" for ::1 at 2016-03-06 15
 [40644] === puma shutdown: 2016-03-06 15:29:18 -0700 ===
 [40644] - Goodbye!
 Exiting
+=== puma startup: 2016-03-06 15:31:02 -0700 ===
+[40710] * Starting control server on unix:///var/folders/4h/z8qg_6396xs0cl6wmvg7cllm0000gn/T/puma-status-1457303462025-40710
+[40710] - Worker 0 (pid: 40711) booted, phase: 0
+
+
+Started GET "/welcome" for ::1 at 2016-03-06 15:31:04 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 654ms (Views: 644.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.self-6f2f4ae8073eeed25f7f4c1fe221c20b00fe8aea594a38fa55e240d6d6a2e51d.css?body=1" for ::1 at 2016-03-06 15:31:05 -0700
+
+
+Started GET "/assets/scaffolds.self-86d63e9b115b8afc1fcf4ba600d9375976c2ae55931fd0a267b37991820394b9.css?body=1" for ::1 at 2016-03-06 15:31:05 -0700
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2016-03-06 15:31:05 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-06 15:31:05 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-06 15:31:05 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-06 15:31:05 -0700
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-03-06 15:31:05 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-06 15:31:05 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-06 15:31:05 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-03-06 15:31:05 -0700
+
+
+Started GET "/assets/bootstrap.min.self-4194c6839c748948066984de483fcbf2dff547fddfbffc64d47164988f454eee.css?body=1" for ::1 at 2016-03-06 15:31:05 -0700
+
+
+Started GET "/assets/linkedin-8dd897eed113b9287e16cf2c907d10276ffc32a437489ce8f4e2274a0d34f906.png" for ::1 at 2016-03-06 15:31:05 -0700
+
+
+Started GET "/assets/github-22ed95ff774cee8427c86b60288af4077b3b26424c758bec95a34aa8b7a88937.png" for ::1 at 2016-03-06 15:31:05 -0700
+
+
+Started GET "/welcome" for ::1 at 2016-03-06 15:31:09 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-4194c6839c748948066984de483fcbf2dff547fddfbffc64d47164988f454eee.css?body=1" for ::1 at 2016-03-06 15:31:09 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.self-6f2f4ae8073eeed25f7f4c1fe221c20b00fe8aea594a38fa55e240d6d6a2e51d.css?body=1" for ::1 at 2016-03-06 15:31:09 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-06 15:31:09 -0700
+
+
+Started GET "/assets/scaffolds.self-86d63e9b115b8afc1fcf4ba600d9375976c2ae55931fd0a267b37991820394b9.css?body=1" for ::1 at 2016-03-06 15:31:09 -0700
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2016-03-06 15:31:09 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-06 15:31:09 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-06 15:31:09 -0700
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-03-06 15:31:09 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-06 15:31:09 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-06 15:31:09 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-03-06 15:31:09 -0700
+
+
+Started GET "/assets/linkedin-8dd897eed113b9287e16cf2c907d10276ffc32a437489ce8f4e2274a0d34f906.png" for ::1 at 2016-03-06 15:31:09 -0700
+
+
+Started GET "/assets/github-22ed95ff774cee8427c86b60288af4077b3b26424c758bec95a34aa8b7a88937.png" for ::1 at 2016-03-06 15:31:09 -0700
+
+
+Started GET "/about_me" for ::1 at 2016-03-06 15:31:10 -0700
+Processing by AboutMeController#index as HTML
+  Rendered about_me/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 43ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+[40710] - Gracefully shutting down workers...
+[40710] === puma shutdown: 2016-03-06 15:31:17 -0700 ===
+[40710] - Goodbye!
+Exiting
