@@ -63,6 +63,11 @@ div {
   font-family: PTSans;
   src: font-url('PTSansCaption.ttf')
 }
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: font-url('/assets/glyphicons-halflings-regular.eot');
+  src: font-url('/assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/assets/glyphicons-halflings-regular.woff') format('woff'), url('/assets/glyphicons-halflings-regular.ttf') format('truetype'), url('/assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
 h1, h2, h3, h4, h5, h6{font-family: PTSans;}
 a, a:hover, a:active, a:focus, a:visited {outline: 0; color: #8E1B1C;}
 
