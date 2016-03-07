@@ -11283,3 +11283,572 @@ Completed 200 OK in 43ms (Views: 42.6ms | ActiveRecord: 0.0ms)
 [40710] === puma shutdown: 2016-03-06 15:31:17 -0700 ===
 [40710] - Goodbye!
 Exiting
+=== puma startup: 2016-03-06 15:42:20 -0700 ===
+[40782] * Starting control server on unix:///var/folders/4h/z8qg_6396xs0cl6wmvg7cllm0000gn/T/puma-status-1457304140313-40782
+[40782] - Worker 0 (pid: 40783) booted, phase: 0
+
+
+Started GET "/welcome" for ::1 at 2016-03-06 15:42:23 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 640ms (Views: 631.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-4194c6839c748948066984de483fcbf2dff547fddfbffc64d47164988f454eee.css?body=1" for ::1 at 2016-03-06 15:42:24 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.self-6f2f4ae8073eeed25f7f4c1fe221c20b00fe8aea594a38fa55e240d6d6a2e51d.css?body=1" for ::1 at 2016-03-06 15:42:24 -0700
+
+
+Started GET "/assets/scaffolds.self-3da2799e045a09dced3a4aae3ed0091b308b514f96ff83c586bf405174777e7a.css?body=1" for ::1 at 2016-03-06 15:42:24 -0700
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2016-03-06 15:42:24 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-06 15:42:24 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-06 15:42:24 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-06 15:42:24 -0700
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-03-06 15:42:24 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-06 15:42:24 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-06 15:42:24 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-03-06 15:42:24 -0700
+
+
+Started GET "/assets/linkedin-8dd897eed113b9287e16cf2c907d10276ffc32a437489ce8f4e2274a0d34f906.png" for ::1 at 2016-03-06 15:42:24 -0700
+
+
+Started GET "/assets/github-22ed95ff774cee8427c86b60288af4077b3b26424c758bec95a34aa8b7a88937.png" for ::1 at 2016-03-06 15:42:24 -0700
+
+
+Started GET "/assets/glyphicons-halflings-regular.eot" for ::1 at 2016-03-06 15:42:24 -0700
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-06 15:42:24 -0700
+
+
+Started GET "/about_me" for ::1 at 2016-03-06 15:42:39 -0700
+Processing by AboutMeController#index as HTML
+  Rendered about_me/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for ::1 at 2016-03-06 15:42:43 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2016-03-06 15:42:59 -0700
+Processing by AboutMeController#index as HTML
+  Rendered about_me/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for ::1 at 2016-03-06 15:43:01 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_me" for ::1 at 2016-03-06 15:43:40 -0700
+Processing by AboutMeController#index as HTML
+  Rendered about_me/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+[40782] ! Terminating timed out worker: 40783
+[40782] ! Out-of-sync worker list, no 40783 worker
+[40782] - Worker 0 (pid: 40804) booted, phase: 0
+
+
+Started GET "/about_me" for ::1 at 2016-03-06 17:45:33 -0700
+Processing by AboutMeController#index as HTML
+  Rendered about_me/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 764ms (Views: 754.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/email-9f11b7f621ce5faaffb401d980fbb57953d07458e355513e0fc1eac35e73ec68.png" for ::1 at 2016-03-06 17:45:34 -0700
+
+
+Started GET "/assets/bootstrap.min.self-4194c6839c748948066984de483fcbf2dff547fddfbffc64d47164988f454eee.css?body=1" for ::1 at 2016-03-06 17:45:34 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.self-6f2f4ae8073eeed25f7f4c1fe221c20b00fe8aea594a38fa55e240d6d6a2e51d.css?body=1" for ::1 at 2016-03-06 17:45:34 -0700
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2016-03-06 17:45:34 -0700
+
+
+Started GET "/assets/scaffolds.self-3da2799e045a09dced3a4aae3ed0091b308b514f96ff83c586bf405174777e7a.css?body=1" for ::1 at 2016-03-06 17:45:34 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-06 17:45:34 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-06 17:45:34 -0700
+
+
+Started GET "/stylesheets/about_me.css" for ::1 at 2016-03-06 17:45:34 -0700
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/about_me.css"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.0.2) lib/puma/configuration.rb:221:in `call'
+  puma (3.0.2) lib/puma/server.rb:561:in `handle_request'
+  puma (3.0.2) lib/puma/server.rb:406:in `process_client'
+  puma (3.0.2) lib/puma/server.rb:271:in `block in run'
+  puma (3.0.2) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.0.2) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.0ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (93.9ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (21.6ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (46.2ms)
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-03-06 17:45:34 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-06 17:45:34 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-06 17:45:34 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-03-06 17:45:34 -0700
+
+
+Started GET "/assets/linkedin-8dd897eed113b9287e16cf2c907d10276ffc32a437489ce8f4e2274a0d34f906.png" for ::1 at 2016-03-06 17:45:34 -0700
+
+
+Started GET "/assets/github-22ed95ff774cee8427c86b60288af4077b3b26424c758bec95a34aa8b7a88937.png" for ::1 at 2016-03-06 17:45:34 -0700
+
+
+Started GET "/about_me" for ::1 at 2016-03-06 17:47:12 -0700
+Processing by AboutMeController#index as HTML
+  Rendered about_me/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-4194c6839c748948066984de483fcbf2dff547fddfbffc64d47164988f454eee.css?body=1" for ::1 at 2016-03-06 17:47:13 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-06 17:47:13 -0700
+
+
+Started GET "/assets/scaffolds.self-3da2799e045a09dced3a4aae3ed0091b308b514f96ff83c586bf405174777e7a.css?body=1" for ::1 at 2016-03-06 17:47:13 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.self-6f2f4ae8073eeed25f7f4c1fe221c20b00fe8aea594a38fa55e240d6d6a2e51d.css?body=1" for ::1 at 2016-03-06 17:47:13 -0700
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2016-03-06 17:47:13 -0700
+
+
+Started GET "/stylesheets/about_me.css" for ::1 at 2016-03-06 17:47:13 -0700
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/about_me.css"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.0.2) lib/puma/configuration.rb:221:in `call'
+  puma (3.0.2) lib/puma/server.rb:561:in `handle_request'
+  puma (3.0.2) lib/puma/server.rb:406:in `process_client'
+  puma (3.0.2) lib/puma/server.rb:271:in `block in run'
+  puma (3.0.2) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.0.2) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.5ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.9ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Marxmus/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.9ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-06 17:47:13 -0700
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-03-06 17:47:13 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-06 17:47:13 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-06 17:47:13 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-03-06 17:47:13 -0700
+
+
+Started GET "/assets/email-b941c557b940b53180d35628214fab71d17b2ee494130ed2ec65000d16bf052c.png" for ::1 at 2016-03-06 17:47:13 -0700
+
+
+Started GET "/assets/linkedin-8dd897eed113b9287e16cf2c907d10276ffc32a437489ce8f4e2274a0d34f906.png" for ::1 at 2016-03-06 17:47:13 -0700
+
+
+Started GET "/assets/github-22ed95ff774cee8427c86b60288af4077b3b26424c758bec95a34aa8b7a88937.png" for ::1 at 2016-03-06 17:47:13 -0700
+
+
+Started GET "/welcome" for ::1 at 2016-03-06 17:47:22 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for ::1 at 2016-03-06 17:48:50 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 156ms (Views: 155.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-4194c6839c748948066984de483fcbf2dff547fddfbffc64d47164988f454eee.css?body=1" for ::1 at 2016-03-06 17:48:51 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.self-6f2f4ae8073eeed25f7f4c1fe221c20b00fe8aea594a38fa55e240d6d6a2e51d.css?body=1" for ::1 at 2016-03-06 17:48:51 -0700
+
+
+Started GET "/assets/scaffolds.self-8a46a025a789e37758166629720ba74cc6d7c97526e8b7f08cc9b3de651a129b.css?body=1" for ::1 at 2016-03-06 17:48:51 -0700
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-03-06 17:48:51 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-06 17:48:51 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-06 17:48:51 -0700
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2016-03-06 17:48:51 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-06 17:48:51 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-06 17:48:51 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-03-06 17:48:51 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-06 17:48:51 -0700
+
+
+Started GET "/assets/linkedin-8dd897eed113b9287e16cf2c907d10276ffc32a437489ce8f4e2274a0d34f906.png" for ::1 at 2016-03-06 17:48:51 -0700
+
+
+Started GET "/assets/github-22ed95ff774cee8427c86b60288af4077b3b26424c758bec95a34aa8b7a88937.png" for ::1 at 2016-03-06 17:48:51 -0700
+
+
+Started GET "/assets/email-b941c557b940b53180d35628214fab71d17b2ee494130ed2ec65000d16bf052c.png" for ::1 at 2016-03-06 17:48:51 -0700
+
+
+Started GET "/welcome" for ::1 at 2016-03-06 17:49:48 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 136ms (Views: 135.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-4194c6839c748948066984de483fcbf2dff547fddfbffc64d47164988f454eee.css?body=1" for ::1 at 2016-03-06 17:49:48 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.self-6f2f4ae8073eeed25f7f4c1fe221c20b00fe8aea594a38fa55e240d6d6a2e51d.css?body=1" for ::1 at 2016-03-06 17:49:48 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-06 17:49:48 -0700
+
+
+Started GET "/assets/scaffolds.self-867205ee6a4049b08cb4be57b8963ac8d3080871cbc824f1bda10784c036429f.css?body=1" for ::1 at 2016-03-06 17:49:48 -0700
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2016-03-06 17:49:48 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-06 17:49:48 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-06 17:49:48 -0700
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-03-06 17:49:48 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-06 17:49:48 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-06 17:49:48 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-03-06 17:49:48 -0700
+
+
+Started GET "/assets/linkedin-8dd897eed113b9287e16cf2c907d10276ffc32a437489ce8f4e2274a0d34f906.png" for ::1 at 2016-03-06 17:49:49 -0700
+
+
+Started GET "/assets/github-22ed95ff774cee8427c86b60288af4077b3b26424c758bec95a34aa8b7a88937.png" for ::1 at 2016-03-06 17:49:49 -0700
+
+
+Started GET "/assets/email-b941c557b940b53180d35628214fab71d17b2ee494130ed2ec65000d16bf052c.png" for ::1 at 2016-03-06 17:49:49 -0700
+
+
+Started GET "/welcome" for ::1 at 2016-03-06 17:50:03 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 132ms (Views: 131.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-4194c6839c748948066984de483fcbf2dff547fddfbffc64d47164988f454eee.css?body=1" for ::1 at 2016-03-06 17:50:04 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.self-6f2f4ae8073eeed25f7f4c1fe221c20b00fe8aea594a38fa55e240d6d6a2e51d.css?body=1" for ::1 at 2016-03-06 17:50:04 -0700
+
+
+Started GET "/assets/scaffolds.self-5eb6d8b51431dca1ee10a3d4c0d35b76f39de631e948df9038cf187bee9d3da3.css?body=1" for ::1 at 2016-03-06 17:50:04 -0700
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2016-03-06 17:50:04 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-06 17:50:04 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-06 17:50:04 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-06 17:50:04 -0700
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-03-06 17:50:04 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-06 17:50:04 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-06 17:50:04 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-03-06 17:50:04 -0700
+
+
+Started GET "/assets/linkedin-8dd897eed113b9287e16cf2c907d10276ffc32a437489ce8f4e2274a0d34f906.png" for ::1 at 2016-03-06 17:50:04 -0700
+
+
+Started GET "/assets/github-22ed95ff774cee8427c86b60288af4077b3b26424c758bec95a34aa8b7a88937.png" for ::1 at 2016-03-06 17:50:04 -0700
+
+
+Started GET "/assets/email-b941c557b940b53180d35628214fab71d17b2ee494130ed2ec65000d16bf052c.png" for ::1 at 2016-03-06 17:50:04 -0700
+
+
+Started GET "/welcome" for ::1 at 2016-03-06 17:50:18 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 130ms (Views: 129.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-4194c6839c748948066984de483fcbf2dff547fddfbffc64d47164988f454eee.css?body=1" for ::1 at 2016-03-06 17:50:18 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.self-6f2f4ae8073eeed25f7f4c1fe221c20b00fe8aea594a38fa55e240d6d6a2e51d.css?body=1" for ::1 at 2016-03-06 17:50:18 -0700
+
+
+Started GET "/assets/scaffolds.self-1f82520565c1ca80ae8aa8106fcaec1298a8005c7a6446e52f956cc20ee83a2a.css?body=1" for ::1 at 2016-03-06 17:50:18 -0700
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2016-03-06 17:50:18 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-06 17:50:18 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-06 17:50:18 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-06 17:50:18 -0700
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-03-06 17:50:18 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-06 17:50:18 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-06 17:50:18 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-03-06 17:50:18 -0700
+
+
+Started GET "/assets/linkedin-8dd897eed113b9287e16cf2c907d10276ffc32a437489ce8f4e2274a0d34f906.png" for ::1 at 2016-03-06 17:50:18 -0700
+
+
+Started GET "/assets/github-22ed95ff774cee8427c86b60288af4077b3b26424c758bec95a34aa8b7a88937.png" for ::1 at 2016-03-06 17:50:18 -0700
+
+
+Started GET "/assets/email-b941c557b940b53180d35628214fab71d17b2ee494130ed2ec65000d16bf052c.png" for ::1 at 2016-03-06 17:50:18 -0700
+
+
+Started GET "/welcome" for ::1 at 2016-03-06 17:50:31 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 136ms (Views: 135.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-4194c6839c748948066984de483fcbf2dff547fddfbffc64d47164988f454eee.css?body=1" for ::1 at 2016-03-06 17:50:31 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.self-6f2f4ae8073eeed25f7f4c1fe221c20b00fe8aea594a38fa55e240d6d6a2e51d.css?body=1" for ::1 at 2016-03-06 17:50:31 -0700
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2016-03-06 17:50:31 -0700
+
+
+Started GET "/assets/scaffolds.self-14261e4b550f4f787fd31ba0cd2ae3b26db07e9c9e39c5410c9177152227539c.css?body=1" for ::1 at 2016-03-06 17:50:31 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-06 17:50:31 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-06 17:50:31 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-06 17:50:31 -0700
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-03-06 17:50:31 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-06 17:50:31 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-06 17:50:31 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-03-06 17:50:31 -0700
+
+
+Started GET "/assets/linkedin-8dd897eed113b9287e16cf2c907d10276ffc32a437489ce8f4e2274a0d34f906.png" for ::1 at 2016-03-06 17:50:31 -0700
+
+
+Started GET "/assets/github-22ed95ff774cee8427c86b60288af4077b3b26424c758bec95a34aa8b7a88937.png" for ::1 at 2016-03-06 17:50:31 -0700
+
+
+Started GET "/assets/email-b941c557b940b53180d35628214fab71d17b2ee494130ed2ec65000d16bf052c.png" for ::1 at 2016-03-06 17:50:31 -0700
+
+
+Started GET "/welcome" for ::1 at 2016-03-06 17:50:42 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 141ms (Views: 140.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-4194c6839c748948066984de483fcbf2dff547fddfbffc64d47164988f454eee.css?body=1" for ::1 at 2016-03-06 17:50:42 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-06 17:50:42 -0700
+
+
+Started GET "/assets/scaffolds.self-380bc907a805600c5e569b9c5cd37cf6179b06770b8d21c24786c6e3a4861681.css?body=1" for ::1 at 2016-03-06 17:50:42 -0700
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2016-03-06 17:50:42 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-06 17:50:42 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-06 17:50:42 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.self-6f2f4ae8073eeed25f7f4c1fe221c20b00fe8aea594a38fa55e240d6d6a2e51d.css?body=1" for ::1 at 2016-03-06 17:50:42 -0700
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-03-06 17:50:42 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-06 17:50:42 -0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-06 17:50:42 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-03-06 17:50:42 -0700
+
+
+Started GET "/assets/linkedin-8dd897eed113b9287e16cf2c907d10276ffc32a437489ce8f4e2274a0d34f906.png" for ::1 at 2016-03-06 17:50:42 -0700
+
+
+Started GET "/assets/github-22ed95ff774cee8427c86b60288af4077b3b26424c758bec95a34aa8b7a88937.png" for ::1 at 2016-03-06 17:50:42 -0700
+
+
+Started GET "/assets/email-b941c557b940b53180d35628214fab71d17b2ee494130ed2ec65000d16bf052c.png" for ::1 at 2016-03-06 17:50:42 -0700
+[40782] - Gracefully shutting down workers...
+[40782] === puma shutdown: 2016-03-06 17:50:54 -0700 ===
+[40782] - Goodbye!
+Exiting

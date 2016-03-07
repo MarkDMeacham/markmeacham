@@ -13,7 +13,7 @@
 	<div class="nav-bar">
 		<%= link_to image_tag('linkedin.png', alt: "LinkedIn Logo"), "http://linkedin.com/in/markdmeacham", target: :_blank, title: "Go to Mark Meacham's LinkedIn Profile" %>
 		<%= link_to image_tag('github.png', alt: "GitHub Logo"), "http://github.com/MarkDMeacham", target: :_blank, title: "Go to Mark Meacham's GitHub Profile" %>
-		<%= mail_to "mark.d.meacham@gmail.com", content_tag(:span, nil, class: "glyphicon glyphicon-envelope"), title: "Contact Mark", subject: "Contact Request from Website", style: "margin-left: 5px;" %>
+		<%= mail_to "mark.d.meacham@gmail.com", image_tag("email.png"), title: "Contact Mark", subject: "Contact Request from Website", style: "margin-left: 5px;" %>
 	</div>
 	<%= yield %>
 </div>
